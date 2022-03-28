@@ -18,11 +18,11 @@ public class WeatherForecastController : ControllerBase
         _logger = logger;
     }
 
-    [HttpGet]
-    public IAsyncResult AA()
-    {
-        return null;
-    }
+    // [HttpGet]
+    // public IActionResult AA()
+    // {
+    //     return null;
+    // }
 
     // [HttpGet(Name = "GetWeatherForecast")]
     // public IEnumerable<WeatherForecast> Get()
